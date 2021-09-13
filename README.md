@@ -1,5 +1,5 @@
 # Overview
-In this repository we provide all the implemented codes and materials used for investigating several temporal/spatial synchronization features as well as cross-frequency coupling effects in the brain oscillatory activity recorded through electroencephalography (EEG). The EEG data are included in the [*Auditory data*](/Auditory_data), [*Rest data*](/Rest data), and [*Multisensory data*](/Multisensory data) folders. 
+In this repository we provide all the implemented codes and materials used for investigating several temporal/spatial synchronization features as well as cross-frequency coupling effects in the brain oscillatory activity recorded through electroencephalography (EEG). The EEG data are included in the [*Auditory data*](../Auditory data), [*Rest data*](/Rest data), and [*Multisensory data*](/Multisensory data) folders. 
 
 To see data specifications please see [Auditory Gamma Entrainment](https://openneuro.org/git/3/ds003800) and [Multisensory Gamma Entrainment](https://openneuro.org/git/3/ds003793) for more information on how the data are acquired and what each dataset contains.
 
