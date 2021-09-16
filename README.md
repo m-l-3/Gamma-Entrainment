@@ -1,7 +1,7 @@
 # Overview
 In this repository we provide all the implemented codes and materials used for investigating several temporal/spatial synchronization features as well as cross-frequency coupling effects in the brain oscillatory activity recorded through electroencephalography (EEG). The EEG data are included in the *Auditory data*, *Rest data*, and *Multisensory data* folders. 
 
-To see data specifications please see [Auditory Gamma Entrainment](https://openneuro.org/git/3/ds003800) and [Multisensory Gamma Entrainment](https://openneuro.org/git/3/ds003793) for more information on how the data are acquired and what each dataset contains.
+To see data specifications please see [Auditory Gamma Entrainment](https://openneuro.org/git/3/ds003800) and [Multisensory Gamma Entrainment](https://openneuro.org/git/3/ds003805) for more information on how the data are acquired and what each dataset contains.
 
 The attached MATLAB scripts are the codes that were used to generate the plots and produce the analytical results discussed in the article ***Gamma Entrainment Improves Synchronization Deficits Caused by Dementia*** authored by M. Lahijanian, H. Aghajan, Z. Vahabi, and A. Afzal. The preprint version of the article is accessible through DOI####.
 
