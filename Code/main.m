@@ -348,7 +348,7 @@ h = ploterr(1:2,[mean(x) mean(y)], [], [std(x)/sqrt(length(x)) std(y)/sqrt(lengt
 [~, pval, ci, stats] = ttest2(x, y, 'Vartype', 'equal')
 mysigstar(gca, [1 2], starloc, pval);
 
-ylabel('Theta power'); 
+ylabel('Pre-test theta power'); 
 xlabel('Status');
 
 % set(gca,'FontSize',6)
