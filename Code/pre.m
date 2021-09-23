@@ -20,7 +20,7 @@ ch_num = length(ch_list);
 %% Auditory Data partitioning 
 
 % Set W to desired window length
-W = 40; % in seconds
+W = 20; % in seconds
 % Number of windows
 w_num = total_dur/W; % or 6 for W=40. 
 nw = Fs*W; % Total number of samples in a window length of W sec.
