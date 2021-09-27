@@ -6,7 +6,7 @@ To see data specifications please see [Auditory Gamma Entrainment](https://openn
 The attached MATLAB scripts are the codes that were used to generate the plots and produce the analytical results discussed in the article ***Gamma Entrainment Improves Synchronization Deficits Caused by Dementia*** authored by M. Lahijanian, H. Aghajan, Z. Vahabi, and A. Afzal. The preprint version of the article is accessible through DOI####.
 
 # Requirements
-For running the scripts, you only need MATLAB. In addition, for producing the connectivity graphs as in Fig. 4b of the referenced article, we recommend using [BrainNet Viewer](https://www.nitrc.org/projects/bnv/).
+For running the scripts, you only need MATLAB. In addition, for producing the connectivity graphs as in Fig. 4b of the referenced article, we recommend using [BrainNet Viewer](https://www.nitrc.org/projects/bnv/) (Version 1.7).
 
 # Instructions
 There are two main scripts: `pre.m` and `main.m` in the [*Code*](/Code) folder. Initial parameters are set at the beginning of each script. First, to define epochs in the data and perform preprocessing steps, run `pre.m` for different window lengths (change `W` to the desired window length). This will prepare the data for the following analyses and the result should be saved in the *Partitioned data* folder (you need to make *Partitioned data* folder in the main repository). Then to generate the epoched data try running `pre.m` for window lengths of 1, 20, and 40 seconds since these values are used later in the analyses. Pay attention to the commented notes as you need to comment/uncomment some lines of the script for `W = 40`.
