@@ -20,6 +20,7 @@ In the case of using the data in this repository, pleas cite DOI####.
 
 # References
 Some pre-existed scripts and functions have been used in different parts of `main.m` which are referenced below:
+- EEGLab2020.0. https://sccn.ucsd.edu/eeglab/index.php
 -	Charles (2021). cbrewer : colorbrewer schemes for Matlab 
 (https://www.mathworks.com/matlabcentral/fileexchange/34087-cbrewer-colorbrewer-schemes-for-matlab), MATLAB Central File Exchange. Retrieved September 7, 2021.
 -	Víctor Martínez-Cagigal (2021). Topographic EEG/MEG plot
@@ -30,5 +31,6 @@ Some pre-existed scripts and functions have been used in different parts of `mai
 https://github.com/bastibe/Violinplot-Matlab, DOI: 10.5281/zenodo.4559847
 -	Simon Musall (2021). stdshade 
 (https://www.mathworks.com/matlabcentral/fileexchange/29534-stdshade), MATLAB Central File Exchange. Retrieved September 7, 2021.
+- BrainNet Viewer (version 1.7). Xia, M., Wang, J. & He, Y. BrainNet Viewer: A Network Visualization Tool for Human Brain Connectomics. PLoS One 8, 68910 (2013).
 -	https://github.com/anne-urai/Tools/blob/master/plotting/mysigstar.m
 -	https://github.com/muntam/TF-PAC
