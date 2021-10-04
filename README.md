@@ -3,7 +3,7 @@ In this repository we provide all the implemented codes and materials used for i
 
 To see data specifications please see [Auditory Gamma Entrainment](https://openneuro.org/datasets/ds003800/versions/1.0.0) and [Multisensory Gamma Entrainment](https://openneuro.org/datasets/ds003805/versions/1.0.0) for more information on how the data are acquired and what each dataset contains.
 
-The attached MATLAB scripts are the codes that were used to generate the plots and produce the analytical results discussed in the article ***Gamma Entrainment Improves Synchronization Deficits Caused by Dementia*** authored by M. Lahijanian, H. Aghajan, Z. Vahabi, and A. Afzal. The preprint version of the article is accessible through DOI####.
+The attached MATLAB scripts are the codes that were used to generate the plots and produce the analytical results discussed in the article ***Gamma Entrainment Improves Synchronization Deficits Caused by Dementia*** authored by M. Lahijanian, H. Aghajan, Z. Vahabi, and A. Afzal. The preprint version of the article is accessible through https://doi.org/10.1101/2021.09.30.462389.
 
 # Requirements
 For running the scripts, you only need MATLAB. In addition, for producing the connectivity graphs as in Fig. 4b of the referenced article, we recommend using [BrainNet Viewer](https://www.nitrc.org/projects/bnv/).
@@ -16,7 +16,7 @@ Then, for generating the results go through `main.m` and you can see the script 
 Note that running cross frequency coupling analyses in `Theta-Gamma Coupling` and `Audio + Visual Entrainment` segments may take a considerable amount of time and demands extensive CPU and memory capacity to generate the coupling features from the epoched data. To avoid running this part, you can used the pre-calculated values of these features which are enclosed in the [*Code*](/Code) folder. This allows you to skip running the calculation parts and directly go to the visualization segments.
 
 # Citation
-In the case of using the data in this repository, pleas cite DOI####.
+In the case of using the data in this repository, pleas cite https://doi.org/10.1101/2021.09.30.462389.
 
 # References
 Some pre-existed scripts and functions have been used in different parts of `main.m` which are referenced below:
