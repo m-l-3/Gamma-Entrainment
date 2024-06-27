@@ -1,7 +1,7 @@
 # Overview
 In this repository we provide all the implemented codes and materials used for investigating several temporal/spatial synchronization features as well as cross-frequency coupling effects in the brain oscillatory activity recorded through electroencephalography (EEG). The EEG data are included in the *Auditory data*, *Rest data*, and *Multisensory data* folders. 
 
-To see data specifications please see [Auditory Gamma Entrainment](https://openneuro.org/datasets/ds003800/versions/1.0.0) and [Multisensory Gamma Entrainment](https://openneuro.org/datasets/ds003805/versions/1.0.0) for more information on how the data are acquired and what each dataset contains.
+To see data specifications please see [Auditory Gamma Entrainment](https://openneuro.org/datasets/ds003800/versions/1.0.0) and [Multisensory Gamma Entrainment](https://openneuro.org/datasets/ds003805/versions/1.0.0) for more information on how the data are acquired and what each dataset contains. Further discriptions about the data is available at the following article: https://doi.org/10.1016/j.dib.2022.107839.
 
 The attached MATLAB scripts are the codes that were used to generate the plots and produce the analytical results discussed in the article ***Gamma Entrainment Improves Synchronization Deficits Caused by Dementia*** authored by M. Lahijanian, H. Aghajan, Z. Vahabi, and A. Afzal. The preprint version of the article is accessible through https://doi.org/10.1101/2021.09.30.462389.
 
@@ -16,7 +16,9 @@ Then, for generating the results go through `main.m` and you can see the script 
 Note that running cross frequency coupling analyses in `Theta-Gamma Coupling` and `Audio + Visual Entrainment` segments may take a considerable amount of time and demands extensive CPU and memory capacity to generate the coupling features from the epoched data. To avoid running this part, you can used the pre-calculated values of these features which are enclosed in the [*Code*](/Code) folder. This allows you to skip running the calculation parts and directly go to the visualization segments.
 
 # Citation
-In the case of using the data in this repository, pleas cite https://doi.org/10.1101/2021.09.30.462389.
+In the case of using the data in this repository, pleas cite the following articles:
+https://doi.org/10.1016/j.dib.2022.107839,
+https://doi.org/10.1101/2021.09.30.462389.
 
 # References
 Some pre-existed scripts and functions have been used in different parts of `main.m` which are referenced below:
